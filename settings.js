@@ -55,7 +55,7 @@ var settings = module.exports = {
     // Disbled Credential Secret
     credentialSecret: false
 }
-
+/*
 if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
     settings.adminAuth = {
         type: "credentials",
@@ -75,6 +75,22 @@ if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
             }
         }
     }
+}
+*/
+adminAuth: {
+    type: "credentials",
+    users: [
+        {
+            username: "azuma",
+            password: "$2a$08$DFxIvQetbl85ORqzJeg7GuC50xMXFgt1h3nTgWqtKJphsNS8TnALG",
+            permissions: "*"
+        },
+        {
+            username: "moriyama",
+            password: "$2a$08$bTjJmgiKyxMhCXfiCDOu1OsKqTxmMKxL2Xi0D3D1adPPrd/TiNhgC",
+            permissions: "*"
+        }
+    ]
 }
 
 settings.pgAppname = 'nodered';
