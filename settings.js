@@ -66,6 +66,21 @@ var settings = module.exports = {
                 username: "moriyama",
                 password: "$2a$08$bTjJmgiKyxMhCXfiCDOu1OsKqTxmMKxL2Xi0D3D1adPPrd/TiNhgC",
                 permissions: "*"
+            },
+            {
+                username: "takuo",
+                password: "$2a$08$qjtX0B4xLHoZGhwq3E3rVuTbGaT8kmZedyduawQxhNfbQpnwsIU9G",
+                permissions: "*"
+            },
+            {
+                username: "kaiju",
+                password: "$2a$08$kYWJluyhuxqIOuyPyxKzJuqAFkMq7H4UZo5bv.D/xLUGlskcQfhye",
+                permissions: "*"
+            },
+            {
+                username: "harada",
+                password: "$2a$08$EgQJ9Es4qkHjdWvRWqC4weoWZt88DhIGPk.0LevllQ2DlHfjaLc.O",
+                permissions: "*"
             }
         ]
     }
