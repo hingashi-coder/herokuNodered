@@ -8,6 +8,6 @@
         "feedparser":"~0.19.2",
         "redis":"~0.10.1",
         "node-red": "~1.x",
-        "mongodb": "~3.6.10",
+        "mongodb": "3.6.10"
     }
 }
