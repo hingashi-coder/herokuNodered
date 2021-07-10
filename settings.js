@@ -24,6 +24,9 @@ var settings = module.exports = {
     uiPort: process.env.PORT || 1880,
     mqttReconnectTime: 15000,
     serialReconnectTime: 15000,
+    functionGlobalContext: {
+        mongo: require("mongodb")
+    },
     debugMaxLength: 10000000,
 
     // Blacklist the non-bluemix friendly nodes
